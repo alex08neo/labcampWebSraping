@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: m.crescenzi
+Build-Jdk: 10
+Implementation-Title: selenium-spring-boot-example
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: esercitazione
+Implementation-Vendor: Pivotal Software, Inc.
+Created-By: Maven Integration for Eclipse
+

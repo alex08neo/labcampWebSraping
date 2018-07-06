@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: PlusBusiness
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Labcamp Web Scraping</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript"
+	src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript"
+	src="layout/scripts/jquery.jcarousel.setup.js"></script>
+</head>
+<body id="top">
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col1">
+		<div id="header">
+			<div id="logo">
+				<h1>
+					Web Scraping</a>
+				</h1>
+				<p>Labcamp - Reply</p>
+			</div>
+			<img src="images/demo/reply1.png" height="42" width="42" alt=""
+				align="left" /> <br class="clear" />
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col2">
+		<div id="featured_slide">
+			<div id="featured_content">
+				<ul>
+					<li><img src="${immagine}" alt="Photo ${titolo}" />
+						<div class="floater">
+							<h2>${titolo}</h2>
+							<p>${definizione}</p>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col3">
+		<div id="container">
+			<div class="homepage">
+				<ul>
+					<li>
+						<h2>Wiki Storia - ${titolo}</h2>
+						<p>${storia}...</p>
+					</li>
+					<li>
+						<h2>Piatto Consigliato: ${titoloRicetta}</h2>
+						<p>${descrizioneRicetta}...</p>
+					</li>
+					<li class="last">
+						<h2>Ingredienti: ${titoloRicetta}</h2>
+						<p>
+							<ul>
+								<#list ingredientiA.lista as ingrediente>
+								<li>${ingrediente}
+								</#list>
+							</ul>
+						</p>
+					</li>
+				</ul>
+				<br class="clear" />
+			</div>
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col4">
+		<div id="footer">
+			<div class="box1">
+				<h2>Web Scraping Techniques</h2>
+				<img class="imgl" src="images/demo/reply2.jpeg" height="42"
+					width="42" alt="" />
+				<p>A data broker application main aim is to collect a huge
+					volume of data about consumers: in this context Web Scraping - the
+					technique for data extraction from web pages - proves to be an
+					invaluable skill, as the World Wide Web is nowadays the most
+					significant source for publicly accessible information, especially
+					for competitor analysis and consumer data enrichment...</p>
+				<p>
+					<a
+						href="https://tamtamy.reply.com/tamtamy/permalink/web-scraping-techniques.action">TamTamy
+						Post<a />
+				</p>
+			</div>
+
+			<div class="box contactdetails">
+				<h2>Our Contact Details !</h2>
+				<ul>
+					<li>Labcamp Web scraping</li>
+					<li>&nbsp;</li>
+					<li><a href="mailto:a.mastropietro@reply.it">Mastropietro
+							Alessandro<a /></li>
+					<li><a href="mailto:l.blasi@reply.it">Blasi Livia<a /></li>
+					<li><a href="mailto:v.illuminati@reply.it">Illuminati
+							Valentina<a /></li>
+					<li><a href="mailto:m.crescenzi@reply.it">Crescenzi
+							Massimo<a /></li>
+					<li>&nbsp;</li>
+					<li>Whitehall Reply</li>
+					<!-- <li>Email: info@domain.com</li>
+        <li class="last">LinkedIn: <a href="#">Company Profile</a></li>-->
+				</ul>
+			</div>
+
+			<div class="box flickrbox" align="center">
+				<h2>Reply</h2>
+				<div class="wrap">
+					<div class="fix"></div>
+					<div class="flickr_badge_image" id="flickr_badge_image1">
+						<a href="https://tamtamy.reply.com/tamtamy/home.action"><img
+							class="imgl" src="images/demo/reply2.jpeg" height="70" width="70"
+							alt="" /><a />
+					</div>
+					<div class="flickr_badge_image" id="flickr_badge_image2">
+						<a href="http://www.reply.com/it/"><img class="imgl"
+							src="images/demo/reply1.png" height="70" width="70" alt="" /><a />
+					</div>
+					<div class="flickr_badge_image" id="flickr_badge_image3">
+						<a href="https://tamtamy.reply.com/tamtamy/home.action"><img
+							class="imgl" src="images/demo/reply2.jpeg" height="70" width="70"
+							alt="" /><a />
+					</div>
+					<div class="flickr_badge_image" id="flickr_badge_image4">
+						<a href="http://www.reply.com/it/"><img class="imgl"
+							src="images/demo/reply1.png" height="70" width="70" alt="" /><a />
+					</div>
+					<div class="flickr_badge_image" id="flickr_badge_image5">
+						<a href="https://tamtamy.reply.com/tamtamy/home.action"><img
+							class="imgl" src="images/demo/reply2.jpeg" height="70" width="70"
+							alt="" /><a />
+					</div>
+					<div class="flickr_badge_image" id="flickr_badge_image6">
+						<a href="http://www.reply.com/it/"><img class="imgl"
+							src="images/demo/reply1.png" height="70" width="70" alt="" /><a />
+					</div>
+					<div class="fix"></div>
+				</div>
+			</div>
+
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col5">
+		<div id="copyright">
+			<p align='center'>Labcamp web scraping dd/mm/yyyy</p>
+			<br class="clear" />
+		</div>
+	</div>
+</body>
+</html>
